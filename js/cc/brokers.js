@@ -1,5 +1,5 @@
 var brokerDomain = {
-	wl1: "fintechee.cloud"
+	wl1: "pademo.fintechee.cloud"
 }
 
 var brokerPort = {
@@ -15,15 +15,15 @@ var shopDomain = {
 }
 
 var brokerName = {
-	wl1: "tst1"
+	wl1: "pademo"
 }
 
 var signInShownBrokerName = {
-	wl1: "Demo Server(tst1)"
+	wl1: "Palm Demo Server"
 }
 
 var shownBrokerName = {
-	wl1: "Test Demo1"
+	wl1: "Palm Demo"
 }
 
 var brokerCtx = []
@@ -35,12 +35,12 @@ brokerCtx[brokerName.wl1] = {
 	orderStreamURL: brokerProtocol.wl1 + brokerDomain.wl1 + brokerPort.wl1,
 	orderBaseURL: brokerProtocol.wl1 + brokerDomain.wl1 + brokerPort.wl1,
 	shopURL: brokerProtocol.wl1 + shopDomain.wl1,
-	logoURL: "/images/channelsea_logo_small.png",
+	logoURL: "/images/logo.png",
 	syncServerSettingStatus: false,
 	defaultSymbolNames: [
 		"EUR/USD"
 	],
-	desc: "Liquidity Provider",
+	desc: "Palm Demo",
 	startEndHour: 22,
 	swapCalcHour: 22,
 	pendingOdrsOpenTrdsNumLimit: 100,
